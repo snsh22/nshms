@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_footer"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:animateLayoutChanges="true"
+    android:background="?colorPrimary"
+    android:clickable="true">
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/sb_player"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentTop="true"
+        android:progressDrawable="@drawable/mini_player_info_progress"
+        android:translationY="-2dp" />
+
+
+    <ImageView
+        android:id="@+id/iv_audio_player_image"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:adjustViewBounds="true"
+        android:padding="4dp"
+        android:src="@drawable/placeholder_song" />
+
+    <TextView
+        android:id="@+id/tv_song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ib_play_pause"
+        android:layout_toRightOf="@+id/iv_audio_player_image"
+        android:tag=":aesthetic_ignore"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/ib_play_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/playlistcore_ic_play_arrow_white_mini"
+        tools:ignore="ContentDescription" />
+
+    <!--<ImageButton
+        android:id="@+id/ib_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/playlistcore_ic_skip_next_white"
+        tools:ignore="ContentDescription" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="?android:windowBackground" />
+
+</RelativeLayout>

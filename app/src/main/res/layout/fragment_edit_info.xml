@@ -1,0 +1,579 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:background="?android:windowBackground"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_profile"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="16dp"
+                    android:adjustViewBounds="true"
+                    android:paddingBottom="1dp"
+                    app:srcCompat="@drawable/ic_account_circle_gray_24px" />
+
+                <TextView
+                    android:id="@+id/tv_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_error"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <LinearLayout
+                    android:id="@+id/ll_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="16dp"
+                        android:text="Name"
+                        android:textColor="@color/text1" />
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:background="@android:color/transparent"
+                        android:hint="Name"
+                        android:paddingBottom="16dp"
+                        android:paddingTop="16dp"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <LinearLayout
+                    android:id="@+id/ll_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:id="@+id/tv_phone"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="16dp"
+                        android:text="Phone Number"
+                        android:textColor="@color/text1" />
+
+                    <TextView
+                        android:id="@+id/tv_phone_value"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:paddingBottom="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Name"
+                        android:textColor="@color/text2" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <RelativeLayout
+                    android:id="@+id/rl_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:weightSum="9">
+
+                        <TextView
+                            android:id="@+id/tv_gender"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:padding="16dp"
+                            android:text="Gender"
+                            android:textColor="@color/text1" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="5">
+
+                            <RadioGroup
+                                android:id="@+id/rg_gender"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/rb_male"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:layout_weight="1"
+                                    android:text="Male"
+                                    android:textColor="@color/text2"
+                                    android:textSize="12dp" />
+
+                                <RadioButton
+                                    android:id="@+id/rb_female"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right"
+                                    android:layout_weight="1"
+                                    android:checked="false"
+                                    android:text="Female"
+                                    android:textColor="@color/text2"
+                                    android:textSize="12dp" />
+                            </RadioGroup>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tv_theme_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Theme Setting"
+                    android:textColor="?android:textColorPrimary" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/switch_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Dark Theme"
+                    android:textColor="?android:textColorSecondary" />
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_color_primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:id="@+id/tv_color_primary"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="16dp"
+                        android:text="Color Primary" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/fab_primary"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="16dp"
+                            android:background="?colorPrimary"
+                            app:elevation="4dp" />
+                        &lt;!&ndash;app:backgroundTint="?colorPrimary"&ndash;&gt;
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_color_accent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:id="@+id/tv_color_accent"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="16dp"
+                        android:text="Color Accent" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/fab_accent"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="16dp"
+                            app:elevation="4dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tv_advance_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Advance Setting"
+                    android:textColor="?android:textColorPrimary" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <LinearLayout
+                    android:id="@+id/ll_minimize_play_screen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:id="@+id/tv_minimize_play_screen"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="16dp"
+                        android:text="Minimize PlayScreen"
+                        android:textColor="@color/text1" />
+
+                    <Switch
+                        android:id="@+id/s_minimize_play_screen"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:paddingBottom="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:textColor="@color/text2" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <LinearLayout
+                    android:id="@+id/ll_quality"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:id="@+id/tv_quality"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="16dp"
+                        android:text="Low Quality"
+                        android:textColor="@color/text1" />
+
+                    <Switch
+                        android:id="@+id/s_low_quality"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:paddingBottom="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:textColor="@color/text2" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <RelativeLayout
+                    android:id="@+id/rl_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/ll_language"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:weightSum="9">
+
+                        <TextView
+                            android:id="@+id/tv_language"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:padding="16dp"
+                            android:text="Language"
+                            android:textColor="@color/text1" />
+
+                        <TextView
+                            android:id="@+id/tv_language_value"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="5"
+                            android:paddingBottom="16dp"
+                            android:paddingTop="16dp"
+                            android:text="Name"
+                            android:textColor="@color/text2" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <LinearLayout
+                    android:id="@+id/ll_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:id="@+id/tv_version"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="16dp"
+                        android:text="Version"
+                        android:textColor="@color/text1" />
+
+                    <TextView
+                        android:id="@+id/tv_version_value"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:paddingBottom="16dp"
+                        android:paddingTop="16dp"
+                        android:textColor="@color/text2" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="16dp">
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="-5dip"
+                    android:layout_marginLeft="-5dip"
+                    android:layout_marginRight="-5dip"
+                    android:layout_marginTop="-5dip"
+                    android:padding="0dp"
+                    android:text="Logout" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent" />-->
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageButton
+                android:id="@+id/ib_nav_back"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="-5dp"
+                android:background="@android:color/transparent"
+                android:padding="8dp"
+                android:src="@drawable/md_nav_back" />
+
+            <TextView
+                android:id="@+id/tv_done"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="Done" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="PlaylistOptionArray">
+        <item>edit playlist</item>
+        <item>remove playlist</item>
+    </array>
+    <array name="PlaylistSongOptionArray">
+        <item>remove song</item>
+    </array>
+    <array name="DownloadOptionArray">
+        <item>remove from download</item>
+    </array>
+    <array name="LanguageOptionArray">
+        <item>English</item>
+        <item>ျမန္မာ (ေဇာ္ဂ်ီ)</item>
+    </array>
+</resources>

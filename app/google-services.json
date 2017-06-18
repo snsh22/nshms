@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "202178260372",
+    "firebase_url": "https://music-streaming-6ec51.firebaseio.com",
+    "project_id": "music-streaming-6ec51",
+    "storage_bucket": "music-streaming-6ec51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202178260372:android:602ee4ec5fc9e1f0",
+        "android_client_info": {
+          "package_name": "music.streaming.dev.snsh.musicstreaming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202178260372-lb4faa51nihn9ghljrf5gjsqvqbkjo1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa4bD8lwBoqZrZC97DQkENxXTCyGgD4l8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

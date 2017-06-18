@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="music.streaming.dev.snsh.musicstreaming">
+
+    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> &lt;!&ndash; Used to read music &ndash;&gt; -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> &lt;!&ndash; Used to save playlists &ndash;&gt; -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Used to fetch data from Last.fm and send bug reports -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Used to play music when the device is locked -->
+    <!-- <uses-permission android:name="android.permission.WRITE_SETTINGS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- SettingActivity -->
+        <activity
+            android:name=".act.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".act.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".act.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".act.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".act.LoginConfirmationActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".playlistCore.service.MediaService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".act.NowPlayingActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1234"
+            android:exported="true" />
+    </application>
+
+</manifest>

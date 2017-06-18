@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:icon="@drawable/ic_discover"
+        android:title="@string/title_discover" />
+
+    <item
+        android:id="@+id/navigation_playlist"
+        android:icon="@drawable/ic_playlist"
+        android:title="@string/title_playlist" />
+
+    <item
+        android:id="@+id/navigation_artist"
+        android:icon="@drawable/ic_artists"
+        android:title="@string/title_artist" />
+
+    <item
+        android:id="@+id/navigation_offline"
+        android:icon="@drawable/ic_offline"
+        android:title="@string/title_offline" />
+
+</menu>

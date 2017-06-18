@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:typeface">monospace</item>
+
+        <item name="colorAccent">@android:color/white</item>
+
+        <item name="android:colorControlHighlight" tools:targetApi="lollipop">
+            @color/white_25_percent
+        </item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:typeface">monospace</item>
+
+        <item name="colorAccent">@android:color/white</item>
+
+        <item name="android:colorControlHighlight" tools:targetApi="lollipop">
+            @color/white_25_percent
+        </item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MySeekBarTheme" parent="Widget.AppCompat.SeekBar">
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="FilePickerTheme" parent="LibAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

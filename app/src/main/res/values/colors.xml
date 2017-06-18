@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#192029</color>
+    <color name="colorPrimaryDark">#141920</color>
+    <color name="colorAccent">#ff0000</color>
+
+    <color name="text1">#ffffff</color>
+    <color name="text2">#919599</color>
+    <color name="text_error">#ff0000</color>
+
+    <color name="md_red">#D32F2F</color>
+    <color name="md_purple">#673AB7</color>
+    <color name="md_blue">#2196F3</color>
+    <color name="md_green">#43A047</color>
+    <color name="md_white">#FAFAFA</color>
+
+    <color name="md_amber">#FFC107</color>
+    <color name="md_lime">#CDDC39</color>
+    <color name="md_pink">#E91E63</color>
+    <color name="md_blue_grey">#78909C</color>
+
+    <color name="text_color_primary">#1a1a1a</color>//10% brightness
+    <color name="text_color_secondary">#4d4d4d</color>//30% brightness
+
+    <color name="text_color_primary_dark">#e5e5e5</color>//inverse
+    <color name="text_color_secondary_dark">#b3b3b3</color>//inverse
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="white_30">#30FFFFFF</color>
+    <color name="white_50_percent">#80FFFFFF</color>
+    <color name="white_25_percent">#40FFFFFF</color>
+    <color name="black_30">#30000000</color>
+    <color name="black_50_percent">#80000000</color>
+    <color name="black_75_percent">#BF000000</color>
+    <color name="black_85_percent">#D9000000</color>
+    <color name="black_95_percent">#F2000000</color>
+
+    <color name="window_background">#f2f2f2</color>
+    <color name="window_background_dark">#303030</color>
+
+    <color name="donut_progress_unfinished_color">#494b4d</color>
+
+</resources>
