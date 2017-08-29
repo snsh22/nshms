@@ -1,0 +1,66 @@
+{
+    "artist": [
+        {
+            "artist_id": "1",
+            "artist_name": Lay Phyu,
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "artist_id": "1",
+            "artist_name": Lay Phyu,
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "artist_id": "1",
+            "artist_name": Lay Phyu,
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "artist_id": "1",
+            "artist_name": Lay Phyu,
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "artist_id": "1",
+            "artist_name": Lay Phyu,
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "artist_id": "1",
+            "artist_name": Lay Phyu,
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        }
+    ],
+    "album": [
+        {
+            "album_id": "1",
+            "album_name": LMN,
+            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "album_id": "1",
+            "album_name": LMN,
+            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "album_id": "1",
+            "album_name": LMN,
+            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "album_id": "1",
+            "album_name": LMN,
+            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "album_id": "1",
+            "album_name": LMN,
+            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        },
+        {
+            "album_id": "1",
+            "album_name": LMN,
+            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+        }
+    ]
+}
