@@ -8,22 +8,22 @@
         {
             "artist_id": "2",
             "artist_name": "Ange",
-            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/ange2.jpg",
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/ange2.jpg"
         },
         {
             "artist_id": "3",
             "artist_name": "Myo Gyi",
-            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/myogyi3.jpg",
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/myogyi3.jpg"
         },
         {
             "artist_id": "4",
             "artist_name": "Ma Naw",
-            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/manaw2.jpg",
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/manaw2.jpg"
         },
         {
             "artist_id": "5",
             "artist_name": "Big Bag",
-            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/bigbag1.jpg",
+            "artist_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/bigbag1.jpg"
         },
         {
             "artist_id": "6",
@@ -40,12 +40,12 @@
         {
             "album_id": "2",
             "album_name": "Changes",
-            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/myogyi3.jpg",
+            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/myogyi3.jpg"
         },
         {
             "album_id": "3",
             "album_name": "9",
-            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/ange2.jpg",
+            "album_image": "https://raw.githubusercontent.com/yekoko/yangonheart/master/ange2.jpg"
         },
         {
             "album_id": "4",
