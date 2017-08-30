@@ -1,0 +1,32 @@
+[
+    {
+        "genres_id": "1",
+        "genres_name": "Rock",
+        "genres_photo": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu2.jpg"
+    },
+    {
+        "genres_id": "1",
+        "genres_name": "Pop",
+        "genres_photo": "https://raw.githubusercontent.com/yekoko/yangonheart/master/manaw2.jpg"
+    },
+    {
+        "genres_id": "1",
+        "genres_name": "Rap",
+        "genres_photo": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu1.jpg"
+    },
+    {
+        "genres_id": "1",
+        "genres_name": "Hip Hop",
+        "genres_photo": "https://raw.githubusercontent.com/yekoko/yangonheart/master/layphyu3.jpg"
+    },
+    {
+        "genres_id": "1",
+        "genres_name": "Country",
+        "genres_photo": "https://raw.githubusercontent.com/yekoko/yangonheart/master/manaw1.jpg"
+    },
+    {
+        "genres_id": "1",
+        "genres_name": "Classic",
+        "genres_photo": "https://raw.githubusercontent.com/yekoko/yangonheart/master/myogyi3.jpg"
+    }
+]
