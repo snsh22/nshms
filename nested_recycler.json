@@ -1,0 +1,134 @@
+{
+	"h_id": "id123",
+	"h_name": "Amazing Bagan Resort",
+      "is_in_wish_list": false,
+	"h_banner_image": [{
+			"banner_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg"
+		},
+		{
+			"banner_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg"
+		}
+	],
+	"h_star_rating": "4",
+	"h_price": "$125",
+	"h_check_in_date": "06 July 2017",
+	"h_check_out_date": "15 July 2017",
+	"h_number_of_guest": "2 Guests",
+	"h_review_point": "4.2",
+	"h_review_title": "Very Good",
+	"h_total_review": "23 reviews",
+	"review_detail": [{
+			"review_preview_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+			"review_title": "Free Wifi"
+
+		},
+		{
+			"review_preview_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+			"review_title": "Breakfast"
+
+		}
+	],
+	"h_description": "Loated in Rome, Ambassador luxury hotel.....",
+	"h_location_latitude": "19.1234124",
+	"h_location_longitude": "19.1234124",
+
+	"availiable_room": [{
+			"room_id": "id123",
+			"room_title": "Standard Twin Room",
+      		 "is_in_wish_list": false,
+			"room_image": [{
+				"room_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg"
+			}, {
+				"room_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg"
+			}],
+			"room_feature": [{
+
+					"room_feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"room_feature_title": "2 double beds"
+				},
+				{
+					"room_feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"room_feature_title": "2 Guests Max"
+				},
+				{
+					"room_feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"room_feature_title": "Free Wireless Internet"
+				}
+
+
+			],
+			"r_note": "Mobile only Deals",
+			"r_price_before": "$150",
+			"r_price_after": "$120",
+			"r_per_unit": "2 nights with taxes",
+			"r_cancellation_before": "10 Oct, 2017",
+			"r_with_credit_card": "Book without Credit card"
+		},
+		{
+			"room_id": "id123",
+			"room_title": "Delux Superior Suite",
+          "is_in_wish_list": false,
+			"room_image": [{
+				"room_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg"
+			}, {
+				"room_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg"
+			}],
+			"room_feature": [{
+					"room_feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"room_feature_title": "2 double beds"
+				},
+				{
+					"room_feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"room_feature_title": "2 Guests Max"
+				},
+				{
+					"room_feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"room_feature_title": "Free Wireless Internet"
+				}
+
+			],
+			"r_note": "Mobile only Deals",
+			"r_price_before": "$150",
+			"r_price_after": "$190",
+			"r_per_unit": "2 nights with taxes",
+			"r_cancellation_before": "10 Oct, 2017",
+			"r_with_credit_card": "Book without Credit card"
+		}
+	],
+	"h_check_in": "Anytime after 3pm",
+	"h_check_out": "12pm",
+	"total_review": "10",
+	"review_person": [{
+		"rv_person_preview": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+		"rv_person_name": "Mg Myo Min",
+		"rv_person_time": "1 month ago",
+		"rv_rating_star": "4",
+		"rv_person_feedback": "This is a nice place...."
+	}],
+	"hotel_features": [{
+			"feature_title": "Hotel Features",
+			"feature_data": [{
+					"feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"feature_title": "Car Parks Wifi"
+				},
+				{
+					"feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"feature_title": "Free Breakfast and Lunch"
+				}
+			]
+		},
+		{
+			"feature_title": "Cancelation Policies",
+			"feature_data": [{
+					"feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"feature_title": "Car Parks Wifi"
+				},
+				{
+					"feature_image": "https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg",
+					"feature_title": "Free Breakfast and Lunch"
+				}
+			]
+		}
+	],
+	"hotel_phone_no": "+959123412"
+}
